@@ -1,0 +1,19 @@
+{
+  "name": "web-pz-3-3",
+  "version": "1.0.0",
+  "description": "> In this lesson students should create template for app with webpack module builder",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/292-group/web-pz-3-3.git"
+  },
+  "author": "Andrii Zadvornyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/292-group/web-pz-3-3/issues"
+  },
+  "homepage": "https://github.com/292-group/web-pz-3-3#readme",
+}
