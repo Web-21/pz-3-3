@@ -1,10 +1,29 @@
 {
   "name": "web-pz-3-3",
   "version": "1.0.0",
-  "description": "> In this lesson students should create template for app with webpack module builder",
-  "main": "",
+  "description": "In this lesson students should create template for app with webpack module builder",
   "scripts": {
+    "dev": "webpack serve --config webpack.config.js",
+    "build": "webpack --config webpack.production.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "babel-loader": "^9.1.3",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "image-webpack-loader": "^7.0.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass-loader": "^13.3.2",
+    "terser-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.3.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   },
   "repository": {
     "type": "git",
@@ -15,5 +34,5 @@
   "bugs": {
     "url": "https://github.com/292-group/web-pz-3-3/issues"
   },
-  "homepage": "https://github.com/292-group/web-pz-3-3#readme",
+  "homepage": "https://github.com/292-group/web-pz-3-3#readme"
 }
