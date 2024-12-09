@@ -1,19 +1,26 @@
 {
-  "name": "web-pz-3-3",
+  "name": "pz-3-3",
   "version": "1.0.0",
-  "description": "> In this lesson students should create template for app with webpack module builder",
-  "main": "",
+  "description": "Проект для Webpack",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  }
+  ,
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.82.0",
+    "sass-loader": "^16.0.4",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/292-group/web-pz-3-3.git"
-  },
-  "author": "Andrii Zadvornyi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/292-group/web-pz-3-3/issues"
-  },
-  "homepage": "https://github.com/292-group/web-pz-3-3#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

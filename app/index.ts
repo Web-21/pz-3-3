@@ -1,4 +1,4 @@
-declare var HASH: string;
-declare var ENV: string;
+import './styles.scss';
 
-console.log('test' + HASH + ENV)
+const appDiv = document.getElementById('app');
+if (appDiv) appDiv.innerHTML = `<h1>Webpack Setup Complete</h1>`;
