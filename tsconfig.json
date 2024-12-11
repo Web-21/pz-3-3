@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "ES6",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "outDir": "./dist",
+      "rootDir": "./app"
+    },
+    "include": ["app/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
