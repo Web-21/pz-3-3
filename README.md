@@ -25,7 +25,7 @@
 ├──package-lock.json
 └── 
 ```
-
+\\gavrik
 ## Useful links
 * [учебник по JavaScript](https://learn.javascript.ru/).
 * [javascript.ru webpack](https://learn.javascript.ru/screencast/webpack).
